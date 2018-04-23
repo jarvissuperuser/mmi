@@ -4,19 +4,103 @@
             Mukuwe Moyo Investments
         </title>
         <link rel="stylesheet" href="w3.css">
+        <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" 
+        integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" 
+        crossorigin="anonymous"> -->
+        <style>
+            /* *{
+                font-size:1em;
+            } */
+            .prlx-img{
+                background-image:url("investment.jpg");
+            }
+
+            .parallax{
+                height:100vh;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            @media (min-width: 600px) {
+                .half-p{
+                    min-height:50vh;
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+            @media (max-width: 599px) {
+                .half-p{
+                    max-height: 200vh;
+                }
+                .h-p-p{
+
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                button{
+                    font-size: 5vh;
+                }
+                .overlay{
+                    width:95vw;
+                }
+            }
+            .overlay{
+                background-color: rgba(1, 1, 1, 0.5);
+                /* border: black 1px solid; */
+                padding: 10px 10px;
+                
+            }
+            .fullhw{
+                height: 100vh;
+                width: 100vw;
+            }
+        </style>
     </head>
-    <body class="w3-responsive">
-        <section class=" parallax-1 w3-black ">
-            <div class="logo">
-                <img src="" alt="logo"/>
+    <body class=" w3-text">
+        <section class=" parallax w3-black prlx-img ">
+            <div class"">
+                <button class="w3-button w3-black w3-text w3-text-red">&#9776</button>
+                <div class="w3-sidebar w3-hide w3-text-black">
+                    
+                    <a href="#" class="w3-bar-item w3-button">About Us</a>
+                    <a href="#" class="w3-bar-item w3-button">Contact Us</a>
+                </div>
+            <div class="w3-animate-opacity fullhw">
+                <img src="logo.png" alt="logo" class="w3-center overlay w3-display-middle"/>
+            </div>
+            <span></span>
             </div>
         </section>
-        <section class=" w3-red">
-            <div>
-                <img src="" alt="content">
+        <section class="half-p w3-black w3-center">
+            <h2 class="">Hello Jobs</h2>
+            <div class="w3-amber w3-col l4 s12 w3-container w3-padding-24">
+                Do somethin good ttext book referral memory theres Do somethin good ttext book referral memory theres 
+                Do somethin good ttext book referral memory theres Do somethin good ttext book referral memory theres 
+                Do somethin good ttext book referral memory theres Do somethin good ttext book referral memory theres 
+                Do somethin good ttext book referral memory theres 
             </div>
+            <div class="w3-amber w3-col l4 s12 w3-container w3-padding-24">
+                    Do somethin good ttext book referral memory theres Do somethin good ttext book referral memory theres 
+                    Do somethin good ttext book referral memory theres Do somethin good ttext book referral memory theres 
+                    Do somethin good ttext book referral memory theres Do somethin good ttext book referral memory theres 
+                    Do somethin good ttext book referral memory theres 
+            </div>
+            <div class="w3-amber w3-col l4 s12 w3-container w3-padding-24">
+                    Do somethin good ttext book referral memory theres Do somethin good ttext book referral memory theres 
+                    Do somethin good ttext book referral memory theres Do somethin good ttext book referral memory theres 
+                    Do somethin good ttext book referral memory theres Do somethin good ttext book referral memory theres 
+                    Do somethin good ttext book referral memory theres 
+            </div>
+        
         </section>
-        <section></section>
-        <section></section>
+        <section class="half-p prlx-img"></section>
+        <section class="half-p w3-blue"></section>
+        <section class="half-p prlx-img"></section>
+        <section class="half-p w3-teal"></section>
     </body>
 </html>
